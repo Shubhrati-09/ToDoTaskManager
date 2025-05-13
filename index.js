@@ -195,6 +195,7 @@ document.addEventListener("DOMContentLoaded",() => {
         taskForm.reset();
         document.getElementById('popUpForm').style.display='none';
         createBtn.classList.toggle('hide');
+        popUpForm.classList.toggle('hide');
     });
 
 });
