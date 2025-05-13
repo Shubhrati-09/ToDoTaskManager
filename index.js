@@ -193,7 +193,6 @@ document.addEventListener("DOMContentLoaded",() => {
         updateEmptyMessage();
 
         taskForm.reset();
-        document.getElementById('popUpForm').style.display='none';
         createBtn.classList.toggle('hide');
         popUpForm.classList.toggle('hide');
     });
