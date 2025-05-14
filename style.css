@@ -59,7 +59,7 @@ body{
 #List{
     background-color: #17425f;
     border: solid white 1px;
-    width: 50%;
+    width: 500px;
     height:60vh;
     display:flex;
     flex-direction: column;
@@ -114,14 +114,14 @@ body{
 }
 
 .taskbtn{
-    width:fit-content;
-    height:4.5vh;
-    font-size: 1.2rem;
+    width:120px;
+    height:6vh;
+    font-size: 1rem;
     margin: 5%;
     border-radius: 20px;
     border:none;
     padding:10px 20px;
-    outline: 4px solid #17425f;
+    outline: 3px solid #17425f;
     background-color:#397090;
     color: #ffffff;
     text-align: center;
@@ -134,7 +134,7 @@ body{
 }
 
 .Form{
-    width:50%;
+    width:500px;
 }
 /* ------------------------------ */
 
@@ -251,4 +251,56 @@ footer{
 /* ------------------------------ */
 
 
-  
+@media (max-width: 600px){
+    #List{
+        width:99%;
+    }
+    
+    .item h2{
+        font-size:medium;
+    }
+    
+    .item p{
+        font-size: small;
+    }
+    
+    .item button{
+        margin-right:10px;
+        border-radius:10px;
+        width:60px;
+        height:20px;
+        background-color: #17425f;
+        color:#ffffff;
+    }
+
+    #List h1{
+        font-size:large;
+    }
+
+    .heading h1{
+        font-size:30px;
+    }
+
+    #CreateTask{
+        width: fit-content;
+        font-size:80%;
+    }
+
+    .Form{
+        width:98%;
+    }
+
+    .taskbtn{
+        width:100px;
+        height:4vh;
+        font-size: 0.5rem;
+        margin: 5%;
+        border-radius: 20px;
+        border:none;
+        padding:10px 20px;
+        outline: 2px solid #17425f;
+        background-color:#397090;
+        color: #ffffff;
+        text-align: center;
+    }
+}
